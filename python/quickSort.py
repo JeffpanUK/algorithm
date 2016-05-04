@@ -57,6 +57,17 @@ def directSort(a):
 		a.pop(r)
 	return result
 
+'''
+quickSort快速排序
+'''
+def quickSort(a,start,end):
+	if start>ned:
+		return
+	i,j=start,end
+	tmp=a[start]
+	                                         
+
+
 def test(size, choice):
 	base=getrandata(size)
 	print "Original array is:%s"%(base)
