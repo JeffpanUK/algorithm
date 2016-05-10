@@ -49,7 +49,7 @@ class BST(object):
 				node.right=insert(node.right,x)
 			return node
 		#deletion operation: first find the node, then delete
-		def delte(node, x):
+		def delete(node, x):
 			if not node:
 				error('cannot find x')
 			elif x<node.elem:
